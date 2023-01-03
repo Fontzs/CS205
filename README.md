@@ -1,4 +1,4 @@
-This course is a c/cpp course of SUSTech. The  instructor is [Shiqi Yu](https://faculty.sustech.edu.cn/yusq/)
+CS205 is a c/cpp course of SUSTech. The  instructor is [Shiqi Yu](https://faculty.sustech.edu.cn/yusq/)
 
 * [lecture](https://www.bilibili.com/video/BV1Vf4y1P7pq/?spm_id_from=333.999.0.0&vd_source=ffd7aa33c178fb1cead28a3d0df0d4d0)
 
