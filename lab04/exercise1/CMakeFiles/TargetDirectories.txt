@@ -1,0 +1,3 @@
+/mnt/e/CS_EE_course/CS205/lab04/exercise1/CMakeFiles/Stuinfo.dir
+/mnt/e/CS_EE_course/CS205/lab04/exercise1/CMakeFiles/edit_cache.dir
+/mnt/e/CS_EE_course/CS205/lab04/exercise1/CMakeFiles/rebuild_cache.dir
