@@ -7,3 +7,5 @@ CS205 is a c/cpp course of SUSTech. The  instructor is [Shiqi Yu](https://facult
 ### Resources
 
 [ Windows11 WSL指定路径安装 ubuntu](https://xkl.me/archives/26.html)
+
+[GDB Documentation](https://www.sourceware.org/gdb/documentation/)
