@@ -22,3 +22,31 @@ CS205 is a c/cpp course of SUSTech. The  instructor is [Shiqi Yu](https://facult
 g++ -shared -fPIC -o libfunction.so function.cpp
 ```
 
+#### Using shared library
+
+* Now we can use "printHello" function with the ".h" header file and the ".so" shared library
+
+* Let's compile main again:
+
+  ```c++
+  g++ -o main -L. main.cpp -lfunction
+  ```
+
+  
+
+* Use "-L." to tell it to find libraries in current directory
+* USe "-lfunction" to tell it to use "libfunction.so".
+* After the "main" has been compiled, try to run it
+
+```c++
+./main
+```
+
+* Using export command to set environment variable "LD_LIBRARY_PATH"
+* AND then run "main" again
+
+```
+export LD_LIBRARY_PATH=.:$LD_LIBRARY_PATH
+echo $LD_LIBRARY_PATH
+```
+
