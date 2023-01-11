@@ -9,3 +9,16 @@ CS205 is a c/cpp course of SUSTech. The  instructor is [Shiqi Yu](https://facult
 [ Windows11 WSL指定路径安装 ubuntu](https://xkl.me/archives/26.html)
 
 [GDB Documentation](https://www.sourceware.org/gdb/documentation/)
+
+### Note
+
+#### Building shared libraries
+
+* Let's build a shared library
+* Remember  to use arguments **"-shared"**  and **"-fPIC"** when building it
+* Now we should see "libfunction.so" in the directory
+
+```c++
+g++ -shared -fPIC -o libfunction.so function.cpp
+```
+
