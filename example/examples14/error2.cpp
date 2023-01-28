@@ -1,8 +1,9 @@
 #include <iostream>
 #include <cstdlib>
 #include <cfloat>
+#include <math.h>
 
-bool ratio(float a, float b, float & c)
+bool ratio(float a, float b, float &c)
 {
     if (fabs(a + b) < FLT_EPSILON)
     {
@@ -23,10 +24,10 @@ int main()
     while (std::cin >> x >> y)
     {
         bool ret = ratio(x, y, z);
-        if(ret) 
-            std::cout << "ratio(" << x << ", " << y<< ") = " << z << std::endl;
+        if (ret)
+            std::cout << "ratio(" << x << ", " << y << ") = " << z << std::endl;
         else
-            std::cerr << "ratio(" << x << ", " << y<< ") failed." << std::endl;
+            std::cerr << "ratio(" << x << ", " << y << ") failed." << std::endl;
 
         std::cout << "Please input two numbers <q to quit>:";
     }

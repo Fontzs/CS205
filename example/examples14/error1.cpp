@@ -1,6 +1,7 @@
 #include <iostream>
 #include <cstdlib>
 #include <cfloat>
+#include <math.h>
 
 float ratio(float a, float b)
 {
@@ -10,7 +11,7 @@ float ratio(float a, float b)
         std::abort();
     }
     return (a - b) / (a + b);
-    //return int(a - b) / int(a + b);// divided by zero behavior differently for int and float
+    // return int(a - b) / int(a + b);// divided by zero behavior differently for int and float
 }
 
 int main()
@@ -22,8 +23,8 @@ int main()
     std::cout << "Please input two numbers <q to quit>:";
     while (std::cin >> x >> y)
     {
-        z = ratio(x,y);
-        std::cout << "ratio(" << x << ", " << y<< ") = " << z << std::endl;
+        z = ratio(x, y);
+        std::cout << "ratio(" << x << ", " << y << ") = " << z << std::endl;
         std::cout << "Please input two numbers <q to quit>:";
     }
     std::cout << "Bye!" << std::endl;
